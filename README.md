@@ -15,8 +15,8 @@ An analysis of the quantity of trades placed by Congress members between 2014-20
 
 ### Stock Act Violations
 According to the STOCK Act, each Congress member has 45 days to report their trades to prevent trading based on private information derived from their official positions. Unfortunately, there were numerous violations; 119 of the 212 Congress members who traded stocks from 2013-2024 violated the STOCK Act. Top violators, including prolific traders David Perdue and Josh Gottheimer, recorded violations in the hundreds.
-<img width="573" alt="image" src="https://github.com/user-attachments/assets/a13051b2-e1bc-46b0-98f2-a7d5124c7b55">
 ![image](https://github.com/user-attachments/assets/c4e642bb-6686-472e-8462-b290ecb0e0e4)
+<img width="573" alt="image" src="https://github.com/user-attachments/assets/a13051b2-e1bc-46b0-98f2-a7d5124c7b55">
 
 
 ### Trade Sizes
