@@ -10,8 +10,8 @@ The data for this project was pulled from three sources. The congressional trade
 To calculate profits, we must make several assumptions:
 
 * Issue:
-The congressional trades are from a fixed date window, from 2014-07-25 to 2023-03-03.
-Due to this window, we do not have all trades for each Senator.
+    - The congressional trades are from a fixed date window, from 2014-07-25 to 2023-03-03.  Due to this window, we do not have all trades for each Senator.
+
 
 * Assumptions:
     - Assume that Congress members are not short selling. This accounts for the edge case where the Congress member bought shares before our window and sold them within the window.
