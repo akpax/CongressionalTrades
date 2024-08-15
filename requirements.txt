@@ -1,0 +1,7 @@
+pandas
+numpy
+python-dotenv
+alpaca-py
+matplotlib
+fuzzywuzzy
+scipy
