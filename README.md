@@ -14,12 +14,12 @@ The congressional trades are from a fixed date window, from 2014-07-25 to 2023-0
 Due to this window, we do not have all trades for each Senator.
 
 * Assumptions:
-- Assume that Congress members are not short selling. This accounts for the edge case where the Congress member bought shares before our window and sold them within the window.
+    - Assume that Congress members are not short selling. This accounts for the edge case where the Congress member bought shares before our window and sold them within the window.
 
 * Implementation:
-- If the shares sold in a transaction bring the total shares to a negative number, the shares_owned will be set to 0, not negative.
-- Profit for the trade will be calculated using the current cost basis.
-- Quiver Quant provides a bracketed range for each trade size. We used the lower bound of the range to calculate the gains.
+    - If the shares sold in a transaction bring the total shares to a negative number, the shares_owned will be set to 0, not negative.
+    - Profit for the trade will be calculated using the current cost basis.
+    - Quiver Quant provides a bracketed range for each trade size. We used the lower bound of the range to calculate the gains.
 
 
 ## Analysis
