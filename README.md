@@ -3,7 +3,7 @@ The goal of this project is to determine whether members of Congress achieve hig
 
 
 ## Data Collection
-The data for this project was pulled from three sources. The congressional trades were taken from [Quiver Quant](https://www.quiverquant.com/congresstrading/) via their API, covering trades from 07-25-2014 to 03-03-2023. The industries were scrapped from [Finviz](https://finviz.com) using Selenium. Stock prices on trade dates and current stock prices were obtained from [Alpaca](https://alpaca.markets) using their API. The stock prices were split-adjusted to prevent errors.
+The data for this project was pulled from four different sources. The congressional trades were taken from [Quiver Quant](https://www.quiverquant.com/congresstrading/) via their API, covering trades from 07-25-2014 to 03-03-2023. The industries were scrapped from [Finviz](https://finviz.com) using Selenium. Stock prices on trade dates and current stock prices were obtained from [Alpaca](https://alpaca.markets) using their API. The stock prices were split-adjusted.  The Congress members and their respective committees were downloaded from the [congress-legislators](https://github.com/unitedstates/congress-legislators) repository in YAML format. 
 
 Fuzzy matching with human oversight was used to match Congress member names from Quiver Quant trades to the committee names provided. Common issues included inconsistencies such as missing middle names or initials and the use of commas. Additionally, the bracketed ranges provided by Quiver Quant were not in a standardized format and were standardized using regex.
 
