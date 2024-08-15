@@ -51,7 +51,7 @@ To calculate profits, we must make several assumptions:
 
 
 ## Analysis
-Google's Universal Sentence Encoder was used to convert the stock industries and committees into vectors. These vectors allow the computer to understand and compare the textual data. The vectors map the words into a latent space, where the proximity of the vectors indicates their similarity. To measure this proximity, the cosine similarity was calculated between the stock industry and committees. Since some Congress members serve on multiple committees, the committee with the highest similarity to the stock was used for the similarity score. This assumes the congress member’s most relevant information will come from the one with the highest similarity score. For example, the largest similarity score of 0.47 would be choosen.
+Google's Universal Sentence Encoder was used to convert the stock industries and committees into vectors. These vectors allow the computer to understand and compare the textual data. The vectors map the words into a latent space, where the proximity of the vectors indicates their similarity. To measure this proximity, the cosine similarity was calculated between the stock industry and committees. Since some Congress members serve on multiple committees, the committee with the highest similarity to the stock was used for the similarity score. This assumes the congress member’s most relevant information will come from the one with the highest similarity score. For example with the similarity scores in the image below, the largest similarity score of 0.47 would be choosen.
 <img width="707" alt="Screenshot 2024-08-14 at 10 35 45 PM" src="https://github.com/user-attachments/assets/d81ddc1a-3820-4351-b9a9-6ddde24e3638">
 
 
